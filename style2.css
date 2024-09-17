@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    justify-content: space-evenly;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(file2.png);
+    height:35px;
+    width: 101%;
+    background-size: cover;
+    background-color:transparent;
+   
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-search{
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
+    width: 620px;
+    height: 40px ;
+    border-radius: 7px;
+}
+.search-icon{
+    background-color: brown;
+    color:white;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.nav-login{
+    background-color: blueviolet;
+    border-radius: 2px;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    color:white;
+}
+
+.nav-home{
+    border:none;
+    font-size: 17px;
+}
+
+.nav-instra{
+    border:none;
+    font-size:  20px;
+}
+.nav-facebook{
+    border:none;
+    font-size:  20px;
+}
+.nav-twitter{
+    border:none;
+    font-size:  20px;
+}
+
+.hero
+{
+    background-image: url(Background.jpg);
+    background-size:cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.poster{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 250px;
+    width :23%;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.box-image{
+    height: 200px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: cornflowerblue;
+}
+footer{
+    margin-top: 1rem;
+}
+.foot-panel1{
+    background-color: rgba(54, 52, 52, 0.993);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.foot-panel3{
+    background-color:  rgba(54, 52, 52, 0.993);
+    color: white;
+    height: 100px;
+    text-align: center;
+    justify-content: space-evenly;
+}
